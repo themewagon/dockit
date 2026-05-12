@@ -19,6 +19,8 @@ export const locales = locals
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://themewagon.github.io",
+  base: "/dockit",
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },

@@ -70,19 +70,19 @@ DocKit est construit avec des technologies avancées:
 
 Prêt à créer une documentation exceptionnelle? Voici votre chemin à suivre:
 
-### 1. **Installation** → [Guide d'installation](/getting-started/installation)
+### 1. **Installation** → [Guide d'installation](/dockit/getting-started/installation)
 Installez DocKit localement et préparez votre environnement de développement.
 
-### 2. **Configuration** → [Paramètres globaux](/getting-started/global-settings/configuration)
+### 2. **Configuration** → [Paramètres globaux](/dockit/getting-started/global-settings/configuration)
 Personnalisez DocKit pour correspondre à votre marque et vos exigences.
 
-### 3. **Création de contenu** → [Écrire du contenu](/guides/content)
+### 3. **Création de contenu** → [Écrire du contenu](/dockit/guides/content)
 Apprenez à rédiger et organiser le contenu de votre documentation.
 
-### 4. **Personnalisation** → [Guide de thématisation](/guides/customization)
+### 4. **Personnalisation** → [Guide de thématisation](/dockit/guides/customization)
 Rendez DocKit unique avec un style et des composants personnalisés.
 
-### 5. **Déploiement** → [Mise en ligne](/guides/deployment)
+### 5. **Déploiement** → [Mise en ligne](/dockit/guides/deployment)
 Déployez votre documentation sur le web pour que tout le monde puisse y accéder.
 
 ## Exemples de sites de documentation
@@ -109,6 +109,6 @@ Rejoignez la communauté DocKit et obtenez de l'aide quand vous en avez besoin:
 
 Votre parcours de documentation commence maintenant! Cliquez ci-dessous pour configurer DocKit et commencer à construire:
 
-[Installer DocKit →](/getting-started/installation){.button}
+[Installer DocKit →](/dockit/getting-started/installation){.button}
 
-*Besoin d'inspiration? Consultez notre [vitrine](/resources/showcase) de beaux sites DocKit.*
+*Besoin d'inspiration? Consultez notre [vitrine](/dockit/resources/showcase) de beaux sites DocKit.*

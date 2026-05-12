@@ -90,9 +90,9 @@ import { Card, Badge } from '@astrojs/starlight/components';
   </div>
   
   <Card title="Quick Links">
-    - [Installation](/install)
-    - [Configuration](/config)
-    - [Examples](/examples)
+    - [Installation](/dockit/install)
+    - [Configuration](/dockit/config)
+    - [Examples](/dockit/examples)
   </Card>
 </Grid>
 ```

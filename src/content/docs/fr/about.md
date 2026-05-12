@@ -207,7 +207,7 @@ L'utilisation continue de nos services après l'entrée en vigueur des modificat
 Si vous avez des questions, des préoccupations ou des demandes concernant cette page À propos ou nos pratiques en matière de données, veuillez nous contacter :
 
 **E-mail :** privacy@dockit.dev  
-**Site web :** [Formulaire de contact](/contact)  
+**Site web :** [Formulaire de contact](/dockit/contact)  
 **Adresse :** [Adresse de votre entreprise]
 
 Pour les demandes de protection des données dans l'UE, vous pouvez également contacter notre Délégué à la protection des données à : dpo@dockit.dev

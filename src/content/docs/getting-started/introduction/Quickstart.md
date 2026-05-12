@@ -246,4 +246,4 @@ GITHUB_TOKEN=your-github-token
 
 ---
 
-Need help with advanced configuration? Check out our [customization guide](/guides/customization) or ask in our [community discussions](https://github.com/yourusername/dockit/discussions).
+Need help with advanced configuration? Check out our [customization guide](/dockit/guides/customization) or ask in our [community discussions](https://github.com/yourusername/dockit/discussions).

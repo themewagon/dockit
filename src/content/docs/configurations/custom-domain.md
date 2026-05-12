@@ -413,7 +413,7 @@ Permissions-Policy: geolocation=(), microphone=(), camera=()
 
 1. **Use fast DNS providers**: Cloudflare, Route 53, or Google DNS
 2. **Minimize DNS lookups**: Reduce external resource dependencies
-3. **Enable DNS prefetching**: `<link rel="dns-prefetch" href="//example.com">`
+3. **Enable DNS prefetching**: `<link rel="dns-prefetch" href="/dockit//example.com">`
 
 ### Caching Strategy
 

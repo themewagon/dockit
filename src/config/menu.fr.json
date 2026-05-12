@@ -6,7 +6,7 @@
     },
     {
       "name": "Documentation",
-      "url": "/fr/getting-started/introduction/overview/"
+      "url": "/dockit/fr/getting-started/introduction/overview/"
     },
     {
       "name": "Référence",
@@ -15,11 +15,11 @@
       "children": [
         {
           "name": "Configuration",
-          "url": "/fr/reference/configuration/"
+          "url": "/dockit/fr/reference/configuration/"
         },
         {
           "name": "Référence des plugins",
-          "url": "/fr/reference/plugin/"
+          "url": "/dockit/fr/reference/plugin/"
         }
       ]
     }
@@ -76,7 +76,7 @@
       "links": [
         {
           "name": "Centre de documentation",
-          "url": "/docs/"
+          "url": "/dockit/docs/"
         },
         {
           "name": "Galerie de thèmes",

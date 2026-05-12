@@ -207,7 +207,7 @@ Continued use of our services after changes take effect constitutes acceptance o
 If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
 **Email:** privacy@dockit.dev  
-**Website:** [Contact Form](/contact)  
+**Website:** [Contact Form](/dockit/contact)  
 **Address:** [Your Business Address]
 
 For data protection inquiries in the EU, you may also contact our Data Protection Officer at: dpo@dockit.dev

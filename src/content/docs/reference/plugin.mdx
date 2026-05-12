@@ -8,7 +8,7 @@ sidebar:
 Starlight plugins can customize Starlight configuration, UI, and behavior, while also being easy to share and reuse.
 This reference page documents the API that plugins have access to.
 
-Learn more about using a Starlight plugin in the [Configuration Reference](/reference/configuration/#plugins) or visit the [plugins showcase](/resources/plugins/#plugins) to see a list of available plugins.
+Learn more about using a Starlight plugin in the [Configuration Reference](/dockit/reference/configuration/#plugins) or visit the [plugins showcase](/dockit/resources/plugins/#plugins) to see a list of available plugins.
 
 ## Quick API Reference
 
@@ -67,7 +67,7 @@ function configSetup(options: HookParameters['config:setup']) {
 
 Plugin internationalization setup function called when Starlight is initialized.
 The `i18n:setup` hook can be used to inject translation strings so a plugin can support different locales.
-These translations will be available via [`useTranslations()`](#usetranslations) in the `config:setup` hook and in UI components via [`Astro.locals.t()`](/guides/i18n/#using-ui-translations).
+These translations will be available via [`useTranslations()`](#usetranslations) in the `config:setup` hook and in UI components via [`Astro.locals.t()`](/dockit/guides/i18n/#using-ui-translations).
 
 The `i18n:setup` hook is called with the following options:
 
@@ -75,7 +75,7 @@ The `i18n:setup` hook is called with the following options:
 
 **type:** `(translations: Record<string, Record<string, string>>) => void`
 
-A callback function to add or update translation strings used in Starlight’s [localization APIs](/guides/i18n/#using-ui-translations).
+A callback function to add or update translation strings used in Starlight’s [localization APIs](/dockit/guides/i18n/#using-ui-translations).
 
 In the following example, a plugin injects translations for a custom UI string named `myPlugin.doThing` for the `en` and `fr` locales:
 
@@ -98,7 +98,7 @@ export default {
 };
 ```
 
-To use the injected translations in your plugin UI, follow the [“Using UI translations” guide](/guides/i18n/#using-ui-translations).
+To use the injected translations in your plugin UI, follow the [“Using UI translations” guide](/dockit/guides/i18n/#using-ui-translations).
 If you need to use UI strings in the context of the [`config:setup`](#configsetup) hook of your plugin, you can use the [`useTranslations()`](#usetranslations) callback.
 
 Types for a plugin’s injected translation strings are generated automatically in a user’s project, but are not yet available when working in your plugin’s codebase.
@@ -151,19 +151,19 @@ This hook is called with the following options:
 
 **type:** `StarlightUserConfig`
 
-A read-only copy of the user-supplied [Starlight configuration](/reference/configuration/).
+A read-only copy of the user-supplied [Starlight configuration](/dockit/reference/configuration/).
 This configuration may have been updated by other plugins configured before the current one.
 
 #### `updateConfig`
 
 **type:** `(newConfig: StarlightUserConfig) => void`
 
-A callback function to update the user-supplied [Starlight configuration](/reference/configuration/).
+A callback function to update the user-supplied [Starlight configuration](/dockit/reference/configuration/).
 Provide the root-level configuration keys you want to override.
 To update nested configuration values, you must provide the entire nested object.
 
 To extend an existing config option without overriding it, spread the existing value into your new value.
-In the following example, a new [`social`](/reference/configuration/#social) media account is added to the existing configuration by spreading `config.social` into the new `social` array:
+In the following example, a new [`social`](/dockit/reference/configuration/#social) media account is added to the existing configuration by spreading `config.social` into the new `social` array:
 
 ```ts {6-15}
 // plugin.ts
@@ -219,7 +219,7 @@ export default {
 
 **type:** `(config: { entrypoint: string; order?: 'pre' | 'post' | 'default' }) => void`
 
-A callback function to add a [route middleware handler](/guides/route-data/) to the site.
+A callback function to add a [route middleware handler](/dockit/guides/route-data/) to the site.
 
 The `entrypoint` property must be a module specifier for your plugin’s middleware file that exports an `onRequest` handler.
 
@@ -304,7 +304,7 @@ The example above will log a message that includes the provided info message:
 
 Call `useTranslations()` with a BCP-47 language tag to generate a utility function that provides access to UI strings for that language.
 `useTranslations()` returns an equivalent of the `Astro.locals.t()` API that is available in Astro components.
-To learn more about the available APIs, see the [“Using UI translations”](/guides/i18n/#using-ui-translations) guide.
+To learn more about the available APIs, see the [“Using UI translations”](/dockit/guides/i18n/#using-ui-translations) guide.
 
 ```ts {6}
 // plugin.ts

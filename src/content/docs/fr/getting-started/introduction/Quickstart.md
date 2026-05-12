@@ -246,4 +246,4 @@ GITHUB_TOKEN=jouw-github-token
 
 ---
 
-Hulp nodig met geavanceerde configuratie? Bekijk onze [aanpassingsgids](/guides/customization) of vraag het in onze [community discussies](#!).
+Hulp nodig met geavanceerde configuratie? Bekijk onze [aanpassingsgids](/dockit/guides/customization) of vraag het in onze [community discussies](#!).

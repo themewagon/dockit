@@ -6,9 +6,9 @@ enable: true
 fill_button:
   enable: true
   label: Get Started
-  link: /getting-started/introduction/overview/
+  link: /dockit/getting-started/introduction/overview/
 outline_button:
   enable: true
   label: View Docs
-  link: /getting-started/introduction/overview/
+  link: /dockit/getting-started/introduction/overview/
 ---

@@ -6,7 +6,7 @@
     },
     {
       "name": "Documentation",
-      "url": "/getting-started/introduction/overview/"
+      "url": "/dockit/getting-started/introduction/overview/"
     },
     {
       "name": "Reference",
@@ -15,11 +15,11 @@
       "children": [
         {
           "name": "Configuration",
-          "url": "/reference/configuration/"
+          "url": "/dockit/reference/configuration/"
         },
         {
           "name": "Plugins Reference",
-          "url": "/reference/plugin/"
+          "url": "/dockit/reference/plugin/"
         }
       ]
     }
@@ -55,15 +55,15 @@
         },
         {
           "name": "Privacy Policy",
-          "url": "/privacy-policy"
+          "url": "/dockit/privacy-policy"
         },
         {
           "name": "Terms and Conditions",
-          "url": "/terms-conditions"
+          "url": "/dockit/terms-conditions"
         },
         {
           "name": "About Us",
-          "url": "/about"
+          "url": "/dockit/about"
         },
         {
           "name": "Troubleshooting",
@@ -76,7 +76,7 @@
       "links": [
         {
           "name": "Documentation Hub",
-          "url": "/docs/"
+          "url": "/dockit/docs/"
         },
         {
           "name": "Theme Gallery",
