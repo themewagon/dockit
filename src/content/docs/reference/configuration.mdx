@@ -90,12 +90,12 @@ Enable “Edit this page” links by setting the base URL these should use. The 
 ```js
 starlight({
   editLink: {
-    baseUrl: "https://github.com/withastro/starlight/edit/main/",
+    baseUrl: "#!",
   },
 });
 ```
 
-With this config, a `/introduction` page would have an edit link pointing to `https://github.com/withastro/starlight/edit/main/src/content/docs/introduction.md`.
+With this config, a `/introduction` page would have an edit link pointing to `#!src/content/docs/introduction.md`.
 
 ### `sidebar`
 
@@ -106,7 +106,7 @@ Configure your site’s sidebar navigation items.
 A sidebar is an array of links and groups of links.
 With the exception of items using `slug`, each item must have a `label` and one of the following properties:
 
-- `link` — a single link to a specific URL, e.g. `'/home'` or `'https://example.com'`.
+- `link` — a single link to a specific URL, e.g. `'/home'` or `'#!'`.
 
 - `slug` — a reference to an internal page, e.g. `'guides/getting-started'`.
 
@@ -357,11 +357,11 @@ Each entry will be displayed as an icon link in the site header.
 ```js
 starlight({
 	social: [
-		{ icon: 'codeberg', label: 'Codeberg', href: 'https://codeberg.org/knut' },
-		{ icon: 'discord', label: 'Discord', href: 'https://astro.build/chat' },
-		{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro' },
-		{ icon: 'gitlab', label: 'GitLab', href: 'https://gitlab.com/delucis' },
-		{ icon: 'mastodon', label: 'Mastodon', href: 'https://m.webtoo.ls/@astro' },
+		{ icon: 'codeberg', label: 'Codeberg', href: '#!' },
+		{ icon: 'discord', label: 'Discord', href: '#!' },
+		{ icon: 'github', label: 'GitHub', href: '#!' },
+		{ icon: 'gitlab', label: 'GitLab', href: '#!' },
+		{ icon: 'mastodon', label: 'Mastodon', href: '#!' },
 	],
 }),
 ```
@@ -408,10 +408,10 @@ starlight({
 **type:** `StarlightExpressiveCodeOptions | boolean`  
 **default:** `true`
 
-Starlight uses [Expressive Code](https://expressive-code.com) to render code blocks and add support for highlighting parts of code examples, adding filenames to code blocks, and more.
+Starlight uses [Expressive Code](#!) to render code blocks and add support for highlighting parts of code examples, adding filenames to code blocks, and more.
 See the [“Code blocks” guide](/dockit/guides/authoring-content/#code-blocks) to learn how to use Expressive Code syntax in your Markdown and MDX content.
 
-You can use any of the standard [Expressive Code configuration options](https://expressive-code.com/reference/configuration/) as well as some Starlight-specific properties, by setting them in Starlight’s `expressiveCode` option.
+You can use any of the standard [Expressive Code configuration options](#!/reference/configuration/) as well as some Starlight-specific properties, by setting them in Starlight’s `expressiveCode` option.
 For example, set Expressive Code’s `styleOverrides` option to override the default CSS. This enables customizations like giving your code blocks rounded corners:
 
 ```js ins={2-4}
@@ -438,9 +438,9 @@ In addition to the standard Expressive Code options, you can also set the follow
 **default:** `['starlight-dark', 'starlight-light']`
 
 Set the themes used to style code blocks.
-See the [Expressive Code `themes` documentation](https://expressive-code.com/guides/themes/) for details of the supported theme formats.
+See the [Expressive Code `themes` documentation](#!/guides/themes/) for details of the supported theme formats.
 
-Starlight uses the dark and light variants of Sarah Drasner’s [Night Owl theme](https://github.com/sdras/night-owl-vscode-theme) by default.
+Starlight uses the dark and light variants of Sarah Drasner’s [Night Owl theme](#!) by default.
 
 If you provide at least one dark and one light theme, Starlight will automatically keep the active code block theme in sync with the current site theme.
 Configure this behavior with the [`useStarlightDarkModeSwitch`](#usestarlightdarkmodeswitch) option.
